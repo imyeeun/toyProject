@@ -1,5 +1,5 @@
 library("tidyverse")    # dplyr
-library(readxl)   # fread
+library("readxl")   # fread
 
 corona19 <- readxl::read_excel(path = "corona19-kr.xlsx",
                    col_names = TRUE)
